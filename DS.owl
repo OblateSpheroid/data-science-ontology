@@ -1,0 +1,750 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#"
+     xml:base="http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#Agile -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#Agile">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#Project/Product_Management"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#Algorithm_design -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#Algorithm_design">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#Machine_Learning"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#Programming"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#Bayesian_methods -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#Bayesian_methods">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#Statistics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#Bayesian_networks -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#Bayesian_networks">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#Machine_Learning"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#Big_data_architectures -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#Big_data_architectures">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#Data_Engineering"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#Calculus -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#Calculus">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#Core_Math"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#Clustering -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#Clustering">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#Machine_Learning"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#Compiled -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#Compiled">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#software_dev"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#Computational_stats -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#Computational_stats">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#Programming"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#Statistics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#Core_Math -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#Core_Math">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#Math/OR"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#Creativity_and_innovation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#Creativity_and_innovation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#Soft_skills"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#Curiousity -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#Curiousity">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#Soft_skills"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#Dashboards -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#Dashboards">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#Vizualizations"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#Data_Engineering -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#Data_Engineering">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#Decision_science -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#Decision_science">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#Project/Product_Management"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#Decision_trees -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#Decision_trees">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#Machine_Learning"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#Diff_Eq -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#Diff_Eq">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#Core_Math"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#Hacker_mindset -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#Hacker_mindset">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#Soft_skills"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#Information_theory -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#Information_theory">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#Math/OR"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#Knowledge_modeling_and_mgmt -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#Knowledge_modeling_and_mgmt">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#Project/Product_Management"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#Language_processing -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#Language_processing">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#Text_mining"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#Leadership_and_teamwork -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#Leadership_and_teamwork">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#Soft_skills"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#Project/Product_Management"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#Linear_algebra -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#Linear_algebra">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#Core_Math"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#Machine_Learning -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#Machine_Learning">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#Mathematical_programming -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#Mathematical_programming">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#Math/OR"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#Modeling -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#Modeling">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#Math/OR"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#Neural_networks -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#Neural_networks">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#Machine_Learning"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#Numerical_methods -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#Numerical_methods">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#Math/OR"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#Optimization -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#Optimization">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#Math/OR"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#Problem_solving -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#Problem_solving">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#Soft_skills"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#Programming -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#Programming">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#Real_analysis -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#Real_analysis">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#Core_Math"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#Regression -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#Regression">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#Statistics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#Reinforcement_learning -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#Reinforcement_learning">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#Machine_Learning"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#Risk_Management -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#Risk_Management">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#Project/Product_Management"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#Sampling -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#Sampling">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#Statistics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#Scripting -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#Scripting">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#software_dev"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#Soft_skills -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#Soft_skills"/>
+    
+
+
+    <!-- http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#Statistics -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#Statistics">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#Stochastic_processes -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#Stochastic_processes">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#Statistics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#Story_telling -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#Story_telling">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#Soft_skills"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#Subject_matter_expertise -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#Subject_matter_expertise">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#Project/Product_Management"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#Support_vector_machines -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#Support_vector_machines">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#Machine_Learning"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#Test_design -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#Test_design">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#Statistics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#Text_mining -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#Text_mining">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#Machine_Learning"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#Vizualizations -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#Vizualizations"/>
+    
+
+
+    <!-- http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#Web_dev -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#Web_dev">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#Programming"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#back-end -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#back-end">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#Web_dev"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#Front-end/UIs"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#continuous_and_discrete -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#continuous_and_discrete">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#Mathematical_programming"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#deterministic_and_stochastic -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#deterministic_and_stochastic">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#Mathematical_programming"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#linear_and_nonlinear -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#linear_and_nonlinear">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#Mathematical_programming"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#software_dev -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#software_dev">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#Programming"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#static_and_dynamic -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#static_and_dynamic">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#Mathematical_programming"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#API/intake -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#API/intake">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#Data_Engineering"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#Business_acumen/strategy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#Business_acumen/strategy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#Project/Product_Management"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#Data_munging/wrangling -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#Data_munging/wrangling">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#Data_Engineering"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#Database/schema_design -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#Database/schema_design">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#Data_Engineering"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#Front-end/UIs -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#Front-end/UIs">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#Vizualizations"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#Web_dev"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#Math/OR -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#Math/OR">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#Plots/Charts/Graphs -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#Plots/Charts/Graphs">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#Vizualizations"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#Probability_&amp;_Inference -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#Probability_&amp;_Inference">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#Statistics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#Project/Product_Management -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#Project/Product_Management"/>
+    
+
+
+    <!-- http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#SQL,_noSQL -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#SQL,_noSQL">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#Data_Engineering"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#Bash -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#Bash">
+        <rdf:type rdf:resource="http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#Scripting"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#Cassandra-ColumnBasedStore -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#Cassandra-ColumnBasedStore">
+        <rdf:type rdf:resource="http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#SQL,_noSQL"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#CouchDB-DocBasedStore -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#CouchDB-DocBasedStore">
+        <rdf:type rdf:resource="http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#SQL,_noSQL"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#Dynamo-KeyValueStore -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#Dynamo-KeyValueStore">
+        <rdf:type rdf:resource="http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#SQL,_noSQL"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#Java -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#Java">
+        <rdf:type rdf:resource="http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#Compiled"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#back-end"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#Javascript -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#Javascript">
+        <rdf:type rdf:resource="http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#Front-end/UIs"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#MySQL -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#MySQL">
+        <rdf:type rdf:resource="http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#SQL,_noSQL"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#Neo4J -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#Neo4J">
+        <rdf:type rdf:resource="http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#SQL,_noSQL"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#PHP -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#PHP">
+        <rdf:type rdf:resource="http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#back-end"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#Postgres -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#Postgres">
+        <rdf:type rdf:resource="http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#SQL,_noSQL"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#Python -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#Python">
+        <rdf:type rdf:resource="http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#Scripting"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#back-end"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#R -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#R">
+        <rdf:type rdf:resource="http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#Scripting"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#C++ -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#C++">
+        <rdf:type rdf:resource="http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#Compiled"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#HTML/CSS -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#HTML/CSS">
+        <rdf:type rdf:resource="http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#Front-end/UIs"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#Ruby/Rails -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#Ruby/Rails">
+        <rdf:type rdf:resource="http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#back-end"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#Bayesian_methods"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#Computational_stats"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#Sampling"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#Test_design"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#Probability_&amp;_Inference"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#Bayesian_networks"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#Clustering"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#Decision_trees"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#Neural_networks"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#Reinforcement_learning"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#Support_vector_machines"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#Big_data_architectures"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#Data_munging/wrangling"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#Database/schema_design"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#SQL,_noSQL"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#Calculus"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#Diff_Eq"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#Linear_algebra"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#Mathematical_programming"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#Modeling"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#Real_analysis"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#Compiled"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#Scripting"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#Web_dev"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#Creativity_and_innovation"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#Curiousity"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#Hacker_mindset"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#Leadership_and_teamwork"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#Problem_solving"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#Story_telling"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#Dashboards"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#Front-end/UIs"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#Plots/Charts/Graphs"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#continuous_and_discrete"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#deterministic_and_stochastic"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#linear_and_nonlinear"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/stevens-garmonj/ontologies/2016/11/untitled-ontology-6#static_and_dynamic"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.6.20160910-2108) https://github.com/owlcs/owlapi -->
+
